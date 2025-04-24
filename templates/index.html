@@ -1,0 +1,46 @@
+<!DOCTYPE>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css')}}"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>APP Estoque</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <h1>Controle de estoque</h1>
+    </head>
+    <body>
+        <div class="container mt-5">
+            
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Quantidade</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Caneta Azul</td>
+                        <td>100</td>
+                        <td>Cheio</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Papel A4</td>
+                        <td>500</td>
+                        <td>Em falta</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Cartucho de Impressora</td>
+                        <td>50</td>
+                        <td>Cheio</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
